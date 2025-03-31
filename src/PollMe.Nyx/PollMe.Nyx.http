@@ -1,0 +1,15 @@
+@PollMe.Nyx_HostAddress = http://localhost:5079
+
+GET {{PollMe.Nyx_HostAddress}}/dataset/
+Accept: application/json
+
+###
+
+GET {{PollMe.Nyx_HostAddress}}/dataset/1
+Accept: application/json
+
+###
+
+GET {{PollMe.Nyx_HostAddress}}/dataset/randomUnused/1
+Accept: application/json
+
